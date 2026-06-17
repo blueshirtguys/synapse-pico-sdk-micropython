@@ -51,6 +51,7 @@ asyncio.run(main())
 | Function | Description |
 |---|---|
 | `await clock.sync()` | Sync the device RTC from an NTP time server. Requires an active WiFi connection. Silently swallows `OSError` on failure. |
+| `clock.unix_time()` | Return the current time as a Unix timestamp (seconds since 1970-01-01). MicroPython's `time.time()` counts from 2000-01-01; this corrects for that offset. Call `clock.sync()` first. |
 
 ### `pico.power`
 
