@@ -9,7 +9,7 @@ or install with `mip`:
 
 ```python
 import mip
-mip.install("github:blueshirtguys/pico-sdk-micropython")
+mip.install("github:blueshirtguys/synapse-pico-sdk-micropython")
 ```
 
 ## Usage
@@ -62,3 +62,7 @@ asyncio.run(main())
 
 Never commit your WiFi credentials. Keep them in a `secrets.py` on the device's filesystem —
 add it to `.gitignore` so it stays off version control.
+
+## License
+
+[MIT](LICENSE)
