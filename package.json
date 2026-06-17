@@ -1,0 +1,10 @@
+{
+    "urls": [
+        ["pico/__init__.py", "github:blueshirtguys/pico-sdk-micropython/pico/__init__.py"],
+        ["pico/wifi.py", "github:blueshirtguys/pico-sdk-micropython/pico/wifi.py"],
+        ["pico/clock.py", "github:blueshirtguys/pico-sdk-micropython/pico/clock.py"],
+        ["pico/power.py", "github:blueshirtguys/pico-sdk-micropython/pico/power.py"],
+        ["pico/ble.py", "github:blueshirtguys/pico-sdk-micropython/pico/ble.py"]
+    ],
+    "version": "0.1.0"
+}
